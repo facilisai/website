@@ -1,0 +1,169 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/careers",
+      "regex": "^/careers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/careers(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/industries",
+      "regex": "^/industries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries(?:/)?$"
+    },
+    {
+      "page": "/industries/chemicals",
+      "regex": "^/industries/chemicals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/chemicals(?:/)?$"
+    },
+    {
+      "page": "/industries/food-beverage",
+      "regex": "^/industries/food\\-beverage(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/food\\-beverage(?:/)?$"
+    },
+    {
+      "page": "/industries/mining",
+      "regex": "^/industries/mining(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/mining(?:/)?$"
+    },
+    {
+      "page": "/industries/oil-gas",
+      "regex": "^/industries/oil\\-gas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/oil\\-gas(?:/)?$"
+    },
+    {
+      "page": "/industries/pharma",
+      "regex": "^/industries/pharma(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/pharma(?:/)?$"
+    },
+    {
+      "page": "/industries/semiconductors",
+      "regex": "^/industries/semiconductors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries/semiconductors(?:/)?$"
+    },
+    {
+      "page": "/products",
+      "regex": "^/products(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/products(?:/)?$"
+    },
+    {
+      "page": "/resources",
+      "regex": "^/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources(?:/)?$"
+    },
+    {
+      "page": "/solutions",
+      "regex": "^/solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions(?:/)?$"
+    },
+    {
+      "page": "/solutions/energy",
+      "regex": "^/solutions/energy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/energy(?:/)?$"
+    },
+    {
+      "page": "/solutions/maintenance",
+      "regex": "^/solutions/maintenance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/maintenance(?:/)?$"
+    },
+    {
+      "page": "/solutions/process",
+      "regex": "^/solutions/process(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/process(?:/)?$"
+    },
+    {
+      "page": "/solutions/quality",
+      "regex": "^/solutions/quality(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/quality(?:/)?$"
+    },
+    {
+      "page": "/solutions/supply-chain",
+      "regex": "^/solutions/supply\\-chain(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/supply\\-chain(?:/)?$"
+    },
+    {
+      "page": "/solutions/yield",
+      "regex": "^/solutions/yield(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/solutions/yield(?:/)?$"
+    },
+    {
+      "page": "/team",
+      "regex": "^/team(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/team(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

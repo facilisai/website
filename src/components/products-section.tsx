@@ -328,7 +328,7 @@ function AnimatedChatDemo() {
       }
     }, 28);
     return () => clearInterval(interval);
-  }, [phase, step]);
+  }, [phase, step, chatSequence]);
 
   // Animate AI typing
   useEffect(() => {
@@ -344,7 +344,7 @@ function AnimatedChatDemo() {
       }
     }, 22);
     return () => clearInterval(interval);
-  }, [phase, step]);
+  }, [phase, step, chatSequence]);
 
   // Wait, then go to next step
   useEffect(() => {

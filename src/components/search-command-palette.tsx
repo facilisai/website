@@ -456,5 +456,5 @@ export function CommandPalette({ open, onClose }: CommandPaletteProps) {
   );
 
   if (!mounted) return null;
-  return createPortal(modal, typeof window !== 'undefined' ? document.body : (null as any));
+  return createPortal(modal, typeof window !== 'undefined' ? document.body : (null as unknown as Element));
 } 
